@@ -10,6 +10,9 @@
   margin: 0.3rem;
   transition: 0.5s;
 }
+.item:hover {
+  cursor: pointer;
+}
 
 .itemName:hover {
   cursor: pointer;
