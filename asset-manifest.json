@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9225c851.css",
+    "main.js": "/static/js/main.eff25c76.js",
+    "static/js/787.47d93d69.chunk.js": "/static/js/787.47d93d69.chunk.js",
+    "static/media/EnchantMe.png": "/static/media/EnchantMe.d4f9c4f846723a2abec4.png",
+    "static/media/logo_na.webp": "/static/media/logo_na.31a3604fc28d0ed57243.webp",
+    "index.html": "/index.html",
+    "main.9225c851.css.map": "/static/css/main.9225c851.css.map",
+    "main.eff25c76.js.map": "/static/js/main.eff25c76.js.map",
+    "787.47d93d69.chunk.js.map": "/static/js/787.47d93d69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9225c851.css",
+    "static/js/main.eff25c76.js"
+  ]
+}
