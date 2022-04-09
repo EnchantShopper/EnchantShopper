@@ -1,0 +1,14 @@
+.header {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.enchantMe {
+  width: 50rem;
+}
+
+.tbcLogo {
+  width: 10rem;
+}

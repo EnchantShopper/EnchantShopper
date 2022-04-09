@@ -1,0 +1,152 @@
+{
+  "item_slot": "cloak",
+  "enchants": [
+    {
+      "enchant": "Greater Shadow Res",
+      "rarity": "rare",
+      "materials": [
+        {
+          "material_name": "Large Prismatic Shard",
+          "amount": 4
+        },
+        { "material_name": "Primal Shadow", "amount": 8 }
+      ]
+    },
+    {
+      "enchant": "Steelweave",
+      "formula": true,
+      "rarity": "rare",
+      "materials": [
+        {
+          "material_name": "Greater Planar Essence",
+          "amount": 8
+        },
+        { "material_name": "Primal Earth", "amount": 8 }
+      ]
+    },
+    {
+      "enchant": "Stealth",
+      "rarity": "rare",
+      "materials": [
+        {
+          "material_name": "Greater Planar Essence",
+          "amount": 3
+        },
+        { "material_name": "Small Prismatic Shard", "amount": 3 },
+        { "material_name": "Fel Lotus", "amount": 2 }
+      ]
+    },
+    {
+      "enchant": "Spell Penetration",
+      "rarity": "uncommon",
+      "materials": [
+        {
+          "material_name": "Greater Planar Essence",
+          "amount": 2
+        },
+        { "material_name": "Primal Mana", "amount": 2 },
+        { "material_name": "Arcane Dust", "amount": 6 }
+      ]
+    },
+    {
+      "enchant": "Major Res",
+      "rarity": "uncommon",
+      "materials": [
+        {
+          "material_name": "Greater Planar Essence",
+          "amount": 4
+        },
+        { "material_name": "Primal Fire", "amount": 4 },
+        { "material_name": "Primal Air", "amount": 4 },
+        { "material_name": "Primal Earth", "amount": 4 },
+        { "material_name": "Primal Water", "amount": 4 }
+      ]
+    },
+    {
+      "enchant": "Greater Agility",
+      "rarity": "common",
+      "formula": false,
+      "materials": [
+        {
+          "material_name": "Greater Planar Essence",
+          "amount": 1
+        },
+        {
+          "material_name": "Arcane Dust",
+          "amount": 4
+        },
+        {
+          "material_name": "Primal Air",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "enchant": "Subtlety",
+      "rarity": "common",
+      "formula": false,
+      "materials": [
+        {
+          "material_name": "Greater Planar Essence",
+          "amount": 2
+        },
+        {
+          "material_name": "Primal Shadow",
+          "amount": 8
+        },
+        { "material_name": "Small Prismatic Shard", "amount": 4 }
+      ]
+    },
+    {
+      "enchant": "Greater Fire Res",
+      "formula": true,
+      "rarity": "common",
+      "materials": [
+        { "material_name": "Small Prismatic Shard", "amount": 3 },
+        {
+          "material_name": "Greater Planar Essence",
+          "amount": 3
+        },
+        { "material_name": "Essence of Fire", "amount": 4 }
+      ]
+    },
+
+    {
+      "enchant": "Dodge",
+      "rarity": "common",
+      "materials": [
+        {
+          "material_name": "Greater Planar Essence",
+          "amount": 3
+        },
+        { "material_name": "Small Prismatic Shard", "amount": 3 },
+        { "material_name": "Primal Earth", "amount": 8 }
+      ]
+    },
+
+    {
+      "enchant": "Major Armor",
+      "rarity": "common",
+      "materials": [
+        {
+          "material_name": "Arcane Dust",
+          "amount": 8
+        }
+      ]
+    },
+
+    {
+      "enchant": "Greater Nature res",
+      "rarity": "common",
+      "formula": true,
+      "materials": [
+        {
+          "material_name": "Greater Planar Essence",
+          "amount": 3
+        },
+        { "material_name": "Small Prismatic Shard", "amount": 2 },
+        { "material_name": "Living Essence", "amount": 4 }
+      ]
+    }
+  ]
+}

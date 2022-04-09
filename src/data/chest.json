@@ -1,0 +1,50 @@
+{
+  "item_slot": "chest",
+  "enchants": [
+    {
+      "enchant": "Major Resilience",
+      "rarity": "uncommon",
+      "formula": true,
+      "materials": [
+        { "material_name": "Greater Planar Essence", "amount": 4 },
+        { "material_name": "Arcane Dust", "amount": 10 }
+      ]
+    },
+    {
+      "enchant": "Exceptional Stats",
+      "rarity": "common",
+      "formula": true,
+      "materials": [
+        { "material_name": "Greater Planar Essence", "amount": 4 },
+        { "material_name": "Arcane Dust", "amount": 4 },
+        { "material_name": "Large Prismatic Shard", "amount": 4 }
+      ]
+    },
+
+    {
+      "enchant": "Restore Mana Prime",
+      "rarity": "common",
+      "formula": false,
+      "materials": [
+        { "material_name": "Lesser Planar Essence", "amount": 2 },
+        { "material_name": "Arcane Dust", "amount": 2 }
+      ]
+    },
+    {
+      "enchant": "Major Spirit",
+      "rarity": "common",
+      "formula": false,
+      "materials": [{ "material_name": "Greater Planar Essence", "amount": 2 }]
+    },
+    {
+      "enchant": "Defense",
+      "rarity": "common",
+      "formula": true,
+      "materials": [
+        { "material_name": "Greater Planar Essence", "amount": 4 },
+        { "material_name": "Arcane Dust", "amount": 8 },
+        { "material_name": "Eternium Ore", "amount": 4 }
+      ]
+    }
+  ]
+}

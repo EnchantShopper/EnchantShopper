@@ -1,0 +1,32 @@
+.material {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 54%);
+  box-shadow: 1px 1px 1px 1px #000000;
+  margin: 0.3rem;
+  transition: 0.5s;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  gap: 1rem;
+}
+.material > p {
+  font-size: 20px;
+  margin: 10px;
+}
+.amount {
+  width: 2rem;
+  color: white;
+}
+.common {
+  color: white;
+}
+.uncommon {
+  color: #1eff00;
+}
+.rare {
+  color: #0070dd;
+}
+.epic {
+  color: #a335ee;
+}

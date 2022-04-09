@@ -1,0 +1,24 @@
+{
+  "item_slot": "2h - weapon",
+  "enchants": [
+    {
+      "enchant": "Major Agility",
+      "rarity": "uncommon",
+      "formula": true,
+      "materials": [
+        { "material_name": "Greater Planar Essence", "amount": 6 },
+        { "material_name": "Large Prismatic Shard", "amount": 8 },
+        { "material_name": "Arcane Dust", "amount": 20 }
+      ]
+    },
+    {
+      "enchant": "Savagery",
+      "rarity": "uncommon",
+      "formula": true,
+      "materials": [
+        { "material_name": "Large Prismatic Shard", "amount": 4 },
+        { "material_name": "Arcane Dust", "amount": 40 }
+      ]
+    }
+  ]
+}

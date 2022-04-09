@@ -1,0 +1,17 @@
+.summary__wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 10rem;
+}
+.summary__wrapper > p {
+  text-shadow: 2px 2px #000000;
+  font-size: 30px;
+  color: #f9fb9e;
+  margin: 5px;
+}
+
+.horizontal-line {
+  width: 80%;
+  height: 0px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.44);
+}

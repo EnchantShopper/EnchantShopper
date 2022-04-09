@@ -1,0 +1,59 @@
+{
+  "item_slot": "gloves",
+  "enchants": [
+    {
+      "enchant": "Major Spellpower",
+      "formula": true,
+      "rarity": "uncommon",
+      "materials": [
+        { "material_name": "Greater Planar Essence", "amount": 6 },
+        { "material_name": "Primal Mana", "amount": 6 },
+        { "material_name": "Large Prismatic Shard", "amount": 6 }
+      ]
+    },
+    {
+      "enchant": "Spell Strike",
+      "formula": true,
+      "rarity": "uncommon",
+      "materials": [
+        { "material_name": "Greater Planar Essence", "amount": 8 },
+        { "material_name": "Arcane Dust", "amount": 2 },
+        { "material_name": "Large Prismatic Shard", "amount": 2 }
+      ]
+    },
+    {
+      "enchant": "Major Healing",
+      "formula": true,
+      "rarity": "uncommon",
+      "materials": [
+        { "material_name": "Primal Life", "amount": 6 },
+        { "material_name": "Greater Planar Essence", "amount": 6 },
+        { "material_name": "Large Prismatic Shard", "amount": 6 }
+      ]
+    },
+    {
+      "enchant": "Blasting",
+      "formula": false,
+      "rarity": "uncommon",
+      "materials": [
+        { "material_name": "Arcane Dust", "amount": 4 },
+        { "material_name": "Lesser Planar Essence", "amount": 1 }
+      ]
+    },
+    {
+      "enchant": "Major Strength",
+      "formula": false,
+      "rarity": "common",
+      "materials": [
+        { "material_name": "Greater Planar Essence", "amount": 1 },
+        { "material_name": "Arcane Dust", "amount": 12 }
+      ]
+    },
+    {
+      "enchant": "Assault",
+      "formula": false,
+      "rarity": "common",
+      "materials": [{ "material_name": "Arcane Dust", "amount": 8 }]
+    }
+  ]
+}

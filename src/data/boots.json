@@ -1,0 +1,59 @@
+{
+  "item_slot": "boots",
+  "enchants": [
+    {
+      "enchant": "Boar's Speed",
+      "rarity": "rare",
+      "formula": true,
+      "materials": [
+        { "material_name": "Primal Earth", "amount": 8 },
+        { "material_name": "Large Prismatic Shard", "amount": 8 }
+      ]
+    },
+    {
+      "enchant": "Cat's Swiftness",
+      "rarity": "rare",
+      "formula": true,
+      "materials": [
+        { "material_name": "Primal Air", "amount": 8 },
+        { "material_name": "Large Prismatic Shard", "amount": 8 }
+      ]
+    },
+    {
+      "enchant": "Dexterity",
+      "rarity": "uncommon",
+      "formula": true,
+      "materials": [
+        { "material_name": "Greater Planar Essence", "amount": 8 },
+        { "material_name": "Arcane Dust", "amount": 8 }
+      ]
+    },
+
+    {
+      "enchant": "Fortitude",
+      "rarity": "uncommon",
+      "formula": true,
+      "materials": [{ "material_name": "Arcane Dust", "amount": 12 }]
+    },
+    {
+      "enchant": "Surefooted",
+      "rarity": "uncommon",
+      "formula": true,
+      "materials": [
+        { "material_name": "Primal Nether", "amount": 1 },
+        { "material_name": "Void Crystal", "amount": 2 },
+        { "material_name": "Large Prismatic Shard", "amount": 4 }
+      ]
+    },
+    {
+      "enchant": "Vitality",
+      "rarity": "uncommon",
+      "formula": true,
+      "materials": [
+        { "material_name": "Arcane Dust", "amount": 6 },
+        { "material_name": "Major Healing Potion", "amount": 4 },
+        { "material_name": "Major Mana Potion", "amount": 4 }
+      ]
+    }
+  ]
+}

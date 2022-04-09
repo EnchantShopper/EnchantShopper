@@ -1,0 +1,40 @@
+.enchant {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 20rem;
+  height: 45px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 54%);
+  box-shadow: 1px 1px 1px 1px #000000;
+  margin: 0.3rem;
+  justify-content: space-between;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.enchantName {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.addBtn {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: rgb(150, 238, 116);
+}
+.addBtn:hover {
+  cursor: pointer;
+}
+
+.common {
+  color: white;
+}
+.uncommon {
+  color: #1eff00;
+}
+.rare {
+  color: #0070dd;
+}
+.epic {
+  color: #a335ee;
+}
