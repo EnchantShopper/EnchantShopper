@@ -5,6 +5,7 @@
       "enchant": "Executioner",
       "rarity": "rare",
       "formula": true,
+      "wowheadID": "spell=42974",
       "materials": [
         { "material_name": "Greater Planar Essence", "amount": 6 },
         { "material_name": "Void Crystal", "amount": 6 },
@@ -17,6 +18,7 @@
       "enchant": "Mongoose",
       "rarity": "rare",
       "formula": true,
+      "wowheadID": "spell=27984",
       "materials": [
         { "material_name": "Greater Planar Essence", "amount": 8 },
         { "material_name": "Void Crystal", "amount": 6 },
@@ -28,6 +30,7 @@
       "enchant": "Soulfrost",
       "rarity": "rare",
       "formula": true,
+      "wowheadID": "spell=27982",
       "materials": [
         { "material_name": "Greater Planar Essence", "amount": 8 },
         { "material_name": "Void Crystal", "amount": 12 },
@@ -40,6 +43,7 @@
       "enchant": "Sunfire",
       "rarity": "rare",
       "formula": true,
+      "wowheadID": "spell=27981",
       "materials": [
         { "material_name": "Greater Planar Essence", "amount": 8 },
         { "material_name": "Void Crystal", "amount": 12 },
@@ -52,6 +56,7 @@
       "enchant": "Deathfrost",
       "rarity": "rare",
       "formula": true,
+      "wowheadID": "spell=46578",
       "materials": [
         { "material_name": "Primal Shadow", "amount": 2 },
         { "material_name": "Primal Water", "amount": 2 }
@@ -61,6 +66,7 @@
       "enchant": "Battlemaster",
       "rarity": "uncommon",
       "formula": true,
+      "wowheadID": "spell=28004",
       "materials": [
         { "material_name": "Void Crystal", "amount": 8 },
         { "material_name": "Large Prismatic Shard", "amount": 8 },
@@ -71,6 +77,7 @@
       "enchant": "Spellsurge",
       "rarity": "uncommon",
       "formula": true,
+      "wowheadID": "spell=28003",
       "materials": [
         { "material_name": "Greater Planar Essence", "amount": 10 },
         { "material_name": "Arcane Dust", "amount": 20 },
@@ -81,6 +88,7 @@
       "enchant": "Major Healing",
       "rarity": "uncommon",
       "formula": true,
+      "wowheadID": "spell=34010",
       "materials": [
         { "material_name": "Large Prismatic Shard", "amount": 8 },
         { "material_name": "Primal Water", "amount": 8 },
@@ -91,6 +99,7 @@
       "enchant": "Major Spellpower",
       "rarity": "uncommon",
       "formula": true,
+      "wowheadID": "spell=27975",
       "materials": [
         { "material_name": "Greater Planar Essence", "amount": 8 },
         { "material_name": "Large Prismatic Shard", "amount": 8 }
@@ -100,6 +109,7 @@
       "enchant": "Major Intellect",
       "rarity": "uncommon",
       "formula": true,
+      "wowheadID": "spell=27968",
       "materials": [
         { "material_name": "Greater Planar Essence", "amount": 10 },
         { "material_name": "Large Prismatic Shard", "amount": 2 }
@@ -109,6 +119,7 @@
       "enchant": "Potency",
       "rarity": "uncommon",
       "formula": true,
+      "wowheadID": "spell=27972",
       "materials": [
         { "material_name": "Greater Planar Essence", "amount": 5 },
         { "material_name": "Large Prismatic Shard", "amount": 4 },
@@ -119,6 +130,7 @@
       "enchant": "Greater Agility",
       "rarity": "common",
       "formula": true,
+      "wowheadID": "spell=42620",
       "materials": [
         { "material_name": "Greater Planar Essence", "amount": 4 },
         { "material_name": "Large Prismatic Shard", "amount": 6 },
@@ -131,6 +143,7 @@
       "enchant": "Major Striking",
       "rarity": "common",
       "formula": true,
+      "wowheadID": "spell=27967",
       "materials": [
         { "material_name": "Greater Planar Essence", "amount": 6 },
         { "material_name": "Large Prismatic Shard", "amount": 2 },

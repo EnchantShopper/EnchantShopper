@@ -4,7 +4,7 @@
     {
       "enchant": "Greater Shadow Res",
       "rarity": "rare",
-      "wowheadID": "item=28277",
+      "wowheadID": "spell=34006",
       "materials": [
         {
           "material_name": "Large Prismatic Shard",
@@ -16,7 +16,7 @@
     {
       "enchant": "Stealth",
       "rarity": "rare",
-      "wowheadID": "item=20734",
+      "wowheadID": "spell=25083",
       "materials": [
         {
           "material_name": "Greater Planar Essence",
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "enchant": "Major Res",
+      "enchant": "Major Resiliance",
       "rarity": "uncommon",
       "wowheadID": "spell=33992",
       "materials": [
