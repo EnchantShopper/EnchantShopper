@@ -16,7 +16,13 @@ export const SummaryItem = ({ itemData, removeItem }) => {
         <p style={{ color: "white" }}>1x</p>
       </div>
       <div className={styles["summary-row-col"]}>
-        <p className={styles[itemData.rarity]}>{itemData.enchant}</p>
+        <a
+          href="#"
+          data-wowhead={itemData.wowheadID}
+          style={{ textDecoration: "none" }}
+        >
+          <p className={styles[itemData.rarity]}>{itemData.enchant}</p>
+        </a>
       </div>
       <div
         className={`${styles["summary-row-col"]} ${styles["summary-icons"]}`}

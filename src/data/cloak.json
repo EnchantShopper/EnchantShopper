@@ -133,7 +133,7 @@
     },
 
     {
-      "enchant": "Greater Nature res",
+      "enchant": "Greater Nature Res",
       "rarity": "common",
       "wowheadID": "spell=25082",
       "formula": true,
