@@ -22,5 +22,22 @@
 }
 
 .empty-list {
-  color: #00000063;
+  text-shadow: none !important;
+  font-size: 16px !important;
+  margin: 16px !important;
+  color: #00000063 !important;
+}
+
+.reset {
+  position: absolute !important;
+  margin: 0 !important;
+  color: rgb(236, 127, 127) !important;
+  font-size: 16px !important;
+  align-self: flex-end !important;
+  text-align: end !important;
+  padding-left: 5px;
+}
+
+.reset:hover {
+  cursor: pointer;
 }

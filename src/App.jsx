@@ -260,7 +260,7 @@ function App() {
           <EnchantPicker addItem={setShoppingList} />
         </Card>
         <Card>
-          <ShoppingList items={materialList} />
+          <ShoppingList items={materialList} clearList={setShoppingList} />
         </Card>
       </div>
       <div className={styles["second-row"]}>
