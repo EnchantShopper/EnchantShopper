@@ -30,3 +30,8 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+.signature {
+  color: rgba(0, 0, 0, 0.452);
+  user-select: none;
+}

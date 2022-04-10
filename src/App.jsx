@@ -254,6 +254,7 @@ function App() {
   return (
     <div className={styles.content}>
       <Header />
+      <span className={styles.signature}>Made by Bium, Firemaw EU (H)</span>
       <div className={styles["first-row"]}>
         <Card>
           <EnchantPicker addItem={setShoppingList} />
