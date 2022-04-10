@@ -14,22 +14,9 @@
       ]
     },
     {
-      "enchant": "Steelweave",
-      "formula": true,
-      "rarity": "rare",
-      "wowheadID": "spell=47051",
-      "materials": [
-        {
-          "material_name": "Greater Planar Essence",
-          "amount": 8
-        },
-        { "material_name": "Primal Earth", "amount": 8 }
-      ]
-    },
-    {
       "enchant": "Stealth",
       "rarity": "rare",
-      "wowheadID": "spell=25083",
+      "wowheadID": "item=20734",
       "materials": [
         {
           "material_name": "Greater Planar Essence",
