@@ -127,6 +127,16 @@
       ]
     },
     {
+      "enchant": "Crusader",
+      "rarity": "uncommon",
+      "formula": true,
+      "wowheadID": "spell=20034",
+      "materials": [
+        { "material_name": "Righteous Orb", "amount": 2 },
+        { "material_name": "Large Brilliant Shard", "amount": 4 }
+      ]
+    },
+    {
       "enchant": "Greater Agility",
       "rarity": "common",
       "formula": true,
@@ -138,7 +148,6 @@
         { "material_name": "Primal Air", "amount": 2 }
       ]
     },
-
     {
       "enchant": "Major Striking",
       "rarity": "common",
