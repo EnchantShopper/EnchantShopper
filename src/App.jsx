@@ -86,6 +86,7 @@ function App() {
             break;
           case LPS:
             lps += m.amount;
+            break;
           case PE:
             pe += m.amount;
             break;

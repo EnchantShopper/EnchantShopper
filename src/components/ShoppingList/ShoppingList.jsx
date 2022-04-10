@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import styles from "./ShoppingList.module.css";
-import { AD, GPE, LPS, SPS, VC } from "../../utils/constants.js";
 import { Material } from "./Material";
 import { IoIosRefresh } from "react-icons/io";
 
