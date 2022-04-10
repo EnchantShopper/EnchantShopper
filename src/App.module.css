@@ -34,4 +34,7 @@ body {
 .signature {
   color: rgba(0, 0, 0, 0.452);
   user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

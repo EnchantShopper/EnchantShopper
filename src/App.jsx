@@ -4,6 +4,7 @@ import { EnchantPicker } from "./components/EnchantPicker/EnchantPicker";
 import { Card } from "./components/Card/Card";
 import { ShoppingList } from "./components/ShoppingList/ShoppingList";
 import { Summary } from "./components/Summary/Summary";
+import { FaDiscord } from "react-icons/fa";
 import {
   AD,
   GPE,
@@ -332,7 +333,16 @@ function App() {
   return (
     <div className={styles.content}>
       <Header />
-      <span className={styles.signature}>Made by Bium, Firemaw EU (H)</span>
+      <span className={styles.signature}>
+        Made by Bium, Firemaw EU (H) |{" "}
+        {
+          <FaDiscord
+            size={20}
+            style={{ marginLeft: "10px", marginRight: "5px" }}
+          />
+        }{" "}
+        choob#2737
+      </span>
       <div className={styles["first-row"]}>
         <Card>
           <EnchantPicker addItem={setShoppingList} />
