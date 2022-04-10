@@ -4,6 +4,7 @@
     {
       "enchant": "Greater Shadow Res",
       "rarity": "rare",
+      "wowheadID": "spell=34006",
       "materials": [
         {
           "material_name": "Large Prismatic Shard",
@@ -13,20 +14,9 @@
       ]
     },
     {
-      "enchant": "Steelweave",
-      "formula": true,
-      "rarity": "rare",
-      "materials": [
-        {
-          "material_name": "Greater Planar Essence",
-          "amount": 8
-        },
-        { "material_name": "Primal Earth", "amount": 8 }
-      ]
-    },
-    {
       "enchant": "Stealth",
       "rarity": "rare",
+      "wowheadID": "spell=25083",
       "materials": [
         {
           "material_name": "Greater Planar Essence",
@@ -39,6 +29,7 @@
     {
       "enchant": "Spell Penetration",
       "rarity": "uncommon",
+      "wowheadID": "spell=34003",
       "materials": [
         {
           "material_name": "Greater Planar Essence",
@@ -49,8 +40,9 @@
       ]
     },
     {
-      "enchant": "Major Res",
+      "enchant": "Major Resiliance",
       "rarity": "uncommon",
+      "wowheadID": "spell=33992",
       "materials": [
         {
           "material_name": "Greater Planar Essence",
@@ -65,6 +57,7 @@
     {
       "enchant": "Greater Agility",
       "rarity": "common",
+      "wowheadID": "spell=34004",
       "formula": false,
       "materials": [
         {
@@ -84,6 +77,7 @@
     {
       "enchant": "Subtlety",
       "rarity": "common",
+      "wowheadID": "spell=25084",
       "formula": false,
       "materials": [
         {
@@ -100,6 +94,7 @@
     {
       "enchant": "Greater Fire Res",
       "formula": true,
+      "wowheadID": "spell=25081",
       "rarity": "common",
       "materials": [
         { "material_name": "Small Prismatic Shard", "amount": 3 },
@@ -114,6 +109,7 @@
     {
       "enchant": "Dodge",
       "rarity": "common",
+      "wowheadID": "spell=25086",
       "materials": [
         {
           "material_name": "Greater Planar Essence",
@@ -127,6 +123,7 @@
     {
       "enchant": "Major Armor",
       "rarity": "common",
+      "wowheadID": "spell=27961",
       "materials": [
         {
           "material_name": "Arcane Dust",
@@ -138,6 +135,7 @@
     {
       "enchant": "Greater Nature res",
       "rarity": "common",
+      "wowheadID": "spell=25082",
       "formula": true,
       "materials": [
         {

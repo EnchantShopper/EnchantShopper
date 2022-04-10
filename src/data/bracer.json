@@ -5,6 +5,7 @@
       "enchant": "Spellpower",
       "rarity": "uncommon",
       "formula": true,
+      "wowheadID": "spell=27917",
       "materials": [
         { "material_name": "Primal Fire", "amount": 6 },
         { "material_name": "Primal Water", "amount": 6 },
@@ -15,6 +16,7 @@
       "enchant": "Fortitude",
       "rarity": "uncommon",
       "formula": true,
+      "wowheadID": "spell=27914",
       "materials": [
         { "material_name": "Large Prismatic Shard", "amount": 1 },
         { "material_name": "Greater Planar Essence", "amount": 10 },
@@ -25,12 +27,14 @@
       "enchant": "Restore Mana Prime",
       "rarity": "uncommon",
       "formula": true,
+      "wowheadID": "spell=27913",
       "materials": [{ "material_name": "Greater Planar Essence", "amount": 8 }]
     },
     {
       "enchant": "Major Defense",
       "rarity": "uncommon",
       "formula": true,
+      "wowheadID": "spell=27906",
       "materials": [
         { "material_name": "Arcane Dust", "amount": 10 },
         { "material_name": "Small Prismatic Shard", "amount": 2 }
@@ -40,6 +44,7 @@
       "enchant": "Superior Healing",
       "rarity": "common",
       "formula": true,
+      "wowheadID": "spell=27911",
       "materials": [
         { "material_name": "Primal Life", "amount": 4 },
         { "material_name": "Greater Planar Essence", "amount": 4 }
@@ -50,6 +55,7 @@
       "enchant": "Stats",
       "rarity": "common",
       "formula": false,
+      "wowheadID": "spell=27905",
       "materials": [
         { "material_name": "Arcane Dust", "amount": 6 },
         { "material_name": "Lesser Planar Essence", "amount": 6 }
@@ -59,18 +65,21 @@
       "enchant": "Brawn",
       "rarity": "common",
       "formula": false,
+      "wowheadID": "spell=27899",
       "materials": [{ "material_name": "Arcane Dust", "amount": 6 }]
     },
     {
       "enchant": "Major Int",
       "rarity": "common",
       "formula": false,
+      "wowheadID": "spell=34001",
       "materials": [{ "material_name": "Lesser Planar Essence", "amount": 3 }]
     },
     {
       "enchant": "Assault",
       "rarity": "common",
       "formula": false,
+      "wowheadID": "spell=34002",
       "materials": [{ "material_name": "Arcane Dust", "amount": 6 }]
     }
   ]

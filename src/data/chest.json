@@ -5,6 +5,7 @@
       "enchant": "Major Resilience",
       "rarity": "uncommon",
       "formula": true,
+      "wowheadID": "spell=33992",
       "materials": [
         { "material_name": "Greater Planar Essence", "amount": 4 },
         { "material_name": "Arcane Dust", "amount": 10 }
@@ -14,6 +15,7 @@
       "enchant": "Exceptional Stats",
       "rarity": "common",
       "formula": true,
+      "wowheadID": "spell=27960",
       "materials": [
         { "material_name": "Greater Planar Essence", "amount": 4 },
         { "material_name": "Arcane Dust", "amount": 4 },
@@ -25,6 +27,7 @@
       "enchant": "Restore Mana Prime",
       "rarity": "common",
       "formula": false,
+      "wowheadID": "https://tbc.wowhead.com/spell=33991/enchant-chest-restore-mana-prime",
       "materials": [
         { "material_name": "Lesser Planar Essence", "amount": 2 },
         { "material_name": "Arcane Dust", "amount": 2 }
@@ -33,12 +36,14 @@
     {
       "enchant": "Major Spirit",
       "rarity": "common",
+      "wowheadID": "spell=33990",
       "formula": false,
       "materials": [{ "material_name": "Greater Planar Essence", "amount": 2 }]
     },
     {
       "enchant": "Defense",
       "rarity": "common",
+      "wowheadID": "spell=46594",
       "formula": true,
       "materials": [
         { "material_name": "Greater Planar Essence", "amount": 4 },

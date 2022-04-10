@@ -17,9 +17,15 @@ export const Enchant = ({ enchantData, addItem }) => {
         }
         width="35px"
       />
-      <p className={`${styles.enchantName} ${styles[enchantData.rarity]}`}>
-        {enchantData.enchant}
-      </p>
+      <a
+        href="#"
+        style={{ textDecoration: "none" }}
+        data-wowhead={enchantData.wowheadID}
+      >
+        <p className={`${styles.enchantName} ${styles[enchantData.rarity]}`}>
+          {enchantData.enchant}
+        </p>
+      </a>
       <BsPlusSquareFill
         onClick={addToShoppingListHandler}
         className={styles.addBtn}
