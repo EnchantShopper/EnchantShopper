@@ -27,10 +27,14 @@ import {
   MHP,
   EoMS,
   PMIGHT,
+  SRS,
+  AQM,
+  LNE,
+  LBS,
+  RO,
 } from "./utils/constants";
 import { getIconUrl } from "./utils/URLFunctions";
 import { Header } from "./components/Header/Header";
-import tbcLogo from "./images/logo_na.webp";
 
 function App() {
   const [shoppingList, setShoppingList] = useState([]);
@@ -66,52 +70,93 @@ function App() {
     let mhp = 0;
     let eoms = 0;
     let pmight = 0;
+    let srs = 0;
+    let aqm = 0;
+    let lne = 0;
+    let lbs = 0;
+    let ro = 0;
     materialsArray.forEach((a) => {
       a.forEach((m) => {
-        if (m.material_name === GPE) {
-          gpe += m.amount;
-        } else if (m.material_name === AD) {
-          ad += m.amount;
-        } else if (m.material_name === SPS) {
-          sps += m.amount;
-        } else if (m.material_name === VC) {
-          vc += m.amount;
-        } else if (m.material_name === LPS) {
-          lps += m.amount;
-        } else if (m.material_name === PA) {
-          pa += m.amount;
-        } else if (m.material_name === PS) {
-          ps += m.amount;
-        } else if (m.material_name === EoF) {
-          eof += m.amount;
-        } else if (m.material_name === PM) {
-          pm += m.amount;
-        } else if (m.material_name === PE) {
-          pe += m.amount;
-        } else if (m.material_name === PW) {
-          pw += m.amount;
-        } else if (m.material_name === PF) {
-          pf += m.amount;
-        } else if (m.material_name === FL) {
-          fl += m.amount;
-        } else if (m.material_name === LE) {
-          le += m.amount;
-        } else if (m.material_name === LPE) {
-          lpe += m.amount;
-        } else if (m.material_name === EO) {
-          eo += m.amount;
-        } else if (m.material_name === PL) {
-          pl += m.amount;
-        } else if (m.material_name === PN) {
-          pn += m.amount;
-        } else if (m.material_name === MMP) {
-          mmp += m.amount;
-        } else if (m.material_name === MHP) {
-          mhp += m.amount;
-        } else if (m.material_name === EoMS) {
-          eoms += m.amount;
-        } else if (m.material_name === PMIGHT) {
-          pmight += m.amount;
+        switch (m.material_name) {
+          case GPE:
+            gpe += m.amount;
+            break;
+          case AD:
+            ad += m.amount;
+            break;
+          case LPS:
+            lps += m.amount;
+            break;
+          case VC:
+            vc += m.amount;
+            break;
+          case SPS:
+            sps += m.amount;
+            break;
+          case PA:
+            pa += m.amount;
+            break;
+          case PS:
+            ps += m.amount;
+            break;
+          case PF:
+            pf += m.amount;
+            break;
+          case PL:
+            pl += m.amount;
+            break;
+          case PW:
+            pw += m.amount;
+            break;
+          case PM:
+            pm += m.amount;
+            break;
+          case FL:
+            fl += m.amount;
+            break;
+          case LE:
+            le += m.amount;
+            break;
+          case LPE:
+            lpe += m.amount;
+            break;
+          case EO:
+            eo += m.amount;
+            break;
+          case PN:
+            pn += m.amount;
+            break;
+          case EoMS:
+            eoms += m.amount;
+            break;
+          case PMIGHT:
+            pmight += m.amount;
+            break;
+          case MHP:
+            mhp += m.amount;
+            break;
+          case MMP:
+            mmp += m.amount;
+            break;
+          case EoF:
+            eof += m.amount;
+            break;
+          case SRS:
+            srs += m.amount;
+            break;
+          case AQM:
+            aqm += m.amount;
+            break;
+          case LNE:
+            lne += m.amount;
+            break;
+          case LBS:
+            lbs += m.amount;
+            break;
+          case RO:
+            ro += m.amount;
+            break;
+          default:
         }
       });
     });
@@ -247,6 +292,36 @@ function App() {
         amount: pmight,
         rarity: "rare",
         iconUrl: getIconUrl(PMIGHT),
+      },
+      {
+        material_name: SRS,
+        amount: srs,
+        rarity: "rare",
+        iconUrl: getIconUrl(SRS),
+      },
+      {
+        material_name: AQM,
+        amount: aqm,
+        rarity: "uncommon",
+        iconUrl: getIconUrl(AQM),
+      },
+      {
+        material_name: LNE,
+        amount: lne,
+        rarity: "uncommon",
+        iconUrl: getIconUrl(LNE),
+      },
+      {
+        material_name: LBS,
+        amount: lbs,
+        rarity: "rare",
+        iconUrl: getIconUrl(LBS),
+      },
+      {
+        material_name: RO,
+        amount: ro,
+        rarity: "uncommon",
+        iconUrl: getIconUrl(RO),
       },
     ];
     setMaterialList(tempArray);

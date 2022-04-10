@@ -60,6 +60,17 @@
         { "material_name": "Major Healing Potion", "amount": 4 },
         { "material_name": "Major Mana Potion", "amount": 4 }
       ]
+    },
+    {
+      "enchant": "Minor Speed",
+      "rarity": "common",
+      "formula": true,
+      "wowheadID": "spell=13890",
+      "materials": [
+        { "material_name": "Small Radiant Shard", "amount": 1 },
+        { "material_name": "Aquamarine", "amount": 1 },
+        { "material_name": "Lesser Nether Essence", "amount": 1 }
+      ]
     }
   ]
 }

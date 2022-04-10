@@ -21,52 +21,70 @@ import {
   MHP,
   EoMS,
   PMIGHT,
+  SRS,
+  AQM,
+  LNE,
+  LBS,
+  RO,
 } from "./constants";
 
 export const getIconUrl = (s) => {
-  if (s === AD) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_dustarcane.jpg";
-  } else if (s === LPS) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_shardprismaticlarge.jpg";
-  } else if (s === VC) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_voidcrystal.jpg";
-  } else if (s === GPE) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_essencearcanelarge.jpg";
-  } else if (s === SPS) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_shardprismaticsmall.jpg";
-  } else if (s === PA) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_elemental_primal_air.jpg";
-  } else if (s === PS) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_elemental_primal_shadow.jpg";
-  } else if (s === EoF) {
-    return "https://wow.zamimg.com/images/wow/icons/large/spell_fire_volcano.jpg";
-  } else if (s === PM) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_elemental_primal_mana.jpg";
-  } else if (s === PE) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_elemental_primal_earth.jpg";
-  } else if (s === PF) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_elemental_primal_fire.jpg";
-  } else if (s === PW) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_elemental_primal_water.jpg";
-  } else if (s === FL) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_misc_herb_fellotus.jpg";
-  } else if (s === LE) {
-    return "https://wow.zamimg.com/images/wow/icons/large/spell_nature_abolishmagic.jpg";
-  } else if (s === LPE) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_essencearcanesmall.jpg";
-  } else if (s === EO) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_ore_eternium.jpg";
-  } else if (s === PL) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_elemental_primal_life.jpg";
-  } else if (s === PN) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_elemental_primal_nether.jpg";
-  } else if (s === MMP) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_potion_76.jpg";
-  } else if (s === MHP) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_potion_54.jpg";
-  } else if (s === EoMS) {
-    return "https://wow.zamimg.com/images/wow/icons/large/inv_potion_147.jpg";
-  } else if (s === PMIGHT) {
-    return "https://wow.zamimg.com/images/wow/icons/large/spell_nature_lightningoverload.jpg";
+  switch (s) {
+    case AD:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_dustarcane.jpg";
+    case LPS:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_shardprismaticlarge.jpg";
+    case VC:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_voidcrystal.jpg";
+    case GPE:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_essencearcanelarge.jpg";
+    case SPS:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_shardprismaticsmall.jpg";
+    case PA:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_elemental_primal_air.jpg";
+    case PS:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_elemental_primal_shadow.jpg";
+    case EoF:
+      return "https://wow.zamimg.com/images/wow/icons/large/spell_fire_volcano.jpg";
+    case PM:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_elemental_primal_mana.jpg";
+    case PE:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_elemental_primal_earth.jpg";
+    case PF:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_elemental_primal_fire.jpg";
+    case PW:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_elemental_primal_water.jpg";
+    case FL:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_misc_herb_fellotus.jpg";
+    case LE:
+      return "https://wow.zamimg.com/images/wow/icons/large/spell_nature_abolishmagic.jpg";
+    case LPE:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_essencearcanesmall.jpg";
+    case EO:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_ore_eternium.jpg";
+    case PL:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_elemental_primal_life.jpg";
+    case PN:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_elemental_primal_nether.jpg";
+    case MMP:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_potion_76.jpg";
+    case EoMS:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_potion_147.jpg";
+    case MHP:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_potion_54.jpg";
+    case PMIGHT:
+      return "https://wow.zamimg.com/images/wow/icons/large/spell_nature_lightningoverload.jpg";
+    case SRS:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_shardradientsmall.jpg";
+    case AQM:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_misc_gem_crystal_02.jpg";
+    case LNE:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_essencenethersmall.jpg";
+    case LBS:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_shardbrilliantlarge.jpg";
+    case RO:
+      return "https://wow.zamimg.com/images/wow/icons/large/inv_misc_gem_pearl_03.jpg";
+    default:
+      break;
   }
 };
