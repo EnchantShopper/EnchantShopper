@@ -86,6 +86,8 @@ function App() {
             break;
           case LPS:
             lps += m.amount;
+          case PE:
+            pe += m.amount;
             break;
           case VC:
             vc += m.amount;
