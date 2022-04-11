@@ -2,6 +2,17 @@
   "item_slot": "gloves",
   "enchants": [
     {
+      "enchant": "Threat",
+      "formula": true,
+      "rarity": "rare",
+      "wowheadID": "spell=25072",
+      "materials": [
+        { "material_name": "Small Prismatic Shard", "amount": 4 },
+        { "material_name": "Primal Life", "amount": 8 },
+        { "material_name": "Greater Planar Essence", "amount": 2 }
+      ]
+    },
+    {
       "enchant": "Major Spellpower",
       "formula": true,
       "rarity": "uncommon",
