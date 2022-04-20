@@ -2,6 +2,17 @@
   "item_slot": "gloves",
   "enchants": [
     {
+      "enchant": "Superior Agility",
+      "formula": true,
+      "rarity": "rare",
+      "wowheadID": "spell=25080",
+      "materials": [
+        { "material_name": "Small Prismatic Shard", "amount": 3 },
+        { "material_name": "Primal Air", "amount": 2 },
+        { "material_name": "Greater Planar Essence", "amount": 3 }
+      ]
+    },
+    {
       "enchant": "Threat",
       "formula": true,
       "rarity": "rare",
