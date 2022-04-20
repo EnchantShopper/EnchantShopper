@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/EnchantShopper/static/css/main.53a1e077.css",
-    "main.js": "/EnchantShopper/static/js/main.d463e073.js",
+    "main.js": "/EnchantShopper/static/js/main.e743bfb3.js",
     "static/js/787.47d93d69.chunk.js": "/EnchantShopper/static/js/787.47d93d69.chunk.js",
     "static/media/EnchantMe.png": "/EnchantShopper/static/media/EnchantMe.d4f9c4f846723a2abec4.png",
     "static/media/logo_na.webp": "/EnchantShopper/static/media/logo_na.31a3604fc28d0ed57243.webp",
     "index.html": "/EnchantShopper/index.html",
     "main.53a1e077.css.map": "/EnchantShopper/static/css/main.53a1e077.css.map",
-    "main.d463e073.js.map": "/EnchantShopper/static/js/main.d463e073.js.map",
+    "main.e743bfb3.js.map": "/EnchantShopper/static/js/main.e743bfb3.js.map",
     "787.47d93d69.chunk.js.map": "/EnchantShopper/static/js/787.47d93d69.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53a1e077.css",
-    "static/js/main.d463e073.js"
+    "static/js/main.e743bfb3.js"
   ]
 }
